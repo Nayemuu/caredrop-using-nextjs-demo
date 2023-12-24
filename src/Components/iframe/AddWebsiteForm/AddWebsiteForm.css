@@ -1,0 +1,49 @@
+.finput {
+  width: 300px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  margin: 8px;
+}
+.finput:hover {
+  border-color: #0f0;
+}
+
+.finput:focus {
+  box-shadow: 0 0 5px 0 #0f0;
+}
+
+.fsubmitButton {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 6px 32px;
+  border: 1px solid #777;
+  border-radius: 4px;
+}
+
+.fcloseButton {
+  display: inline-block;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 6px 32px;
+  border: 1px solid #777;
+  border-radius: 4px;
+}
+
+.formContainer {
+  margin: 28px 8px 8px 8px;
+  padding: 18px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+
+  box-shadow: 0 0 5px 0 rgb(rgb(24, 23, 23));
+}
+
+.myform {
+  max-width: 850px;
+  margin: auto;
+  margin-bottom: 18px;
+}
